@@ -369,7 +369,21 @@
         <a href=""><i class="fa-solid fa-phone"></i> Phone: +00151515</a>
         <a href=""><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</a>
       </div>
-      <div class="contact_input"></div>
+      <div class="contact_input">
+        <form action="/hier_hin" method="POST">
+          <input type="text" id="name" name="Name" required />
+          <input type="email" id="email" name="Email" required />
+          <input type="text" id="subject" name="Subject" required />
+          <input type="text" id="massage" name="Massage" required />
+          <button type="submit" id="submit">
+            <i class="fa-solid fa-paper-plane"></i>SEND MASSAGE
+          </button>
+        </form>
+      </div>
+
+      <div class="contact_img">
+        <img src="skyview.png" alt="skyview" id="skyview" />
+      </div>
     </section>
 
     <footer id="footer"></footer>
