@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: beige;
+}
+nav {
+  background-color: #ffffff;
+}
+.nav_ul {
+  list-style-type: none;
+  height: 6.5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav_ul .nav_li:first-child {
+  margin-right: auto;
+}
+.nav_li {
+  height: 100%;
+  padding: 0 1vw 0 1vw;
+  display: flex;
+  align-items: center;
+}
+.nav_li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.9em;
+}
+.nav_li a i {
+  margin-right: 4px;
+}
+
+img {
+  width: 100%;
+}
+.welcome {
+  height: 93.5vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-left: 4vw;
+}
+
+.welcome_header {
+  color: white;
+  height: 30%;
+  margin-top: 32vh;
+}
+.welcome_header h1 {
+  font-size: 4em;
+  font-weight: normal;
+}
+.welcome_header h3 {
+  font-weight: normal;
+  margin-top: 4.5vh;
+  background-color: #020202;
+}
+.welcome_header button {
+  margin-top: 5.5vh;
+  height: 6vh;
+  width: 20vw;
+  font-size: 1.2em;
+  background-color: #9c9d9e;
+  color: #030405;
+  font-weight: lighter;
+}
+.welcome_icons a i {
+  margin-bottom: auto;
+}
