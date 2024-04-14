@@ -47,7 +47,7 @@ img {
   background-image: url(/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+
   padding-left: 4vw;
 }
 
@@ -62,11 +62,10 @@ img {
 }
 .welcome_header h3 {
   font-weight: normal;
-  margin-top: 4.5vh;
-  background-color: #020202;
+  margin-top: 5vh;
 }
 .welcome_header button {
-  margin-top: 5.5vh;
+  margin-top: 5vh;
   height: 6vh;
   width: 20vw;
   font-size: 1.2em;
