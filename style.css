@@ -55,11 +55,13 @@ img {
   height: 93.5vh;
   display: flex;
   flex-direction: column;
-  /*background-image: url(/background.png);
+  background-image: url(/background.png);
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
   padding-left: 4vw;
 }
+
+/*
 .welcome img {
   width: 100%;
   object-fit: contain;
@@ -68,6 +70,7 @@ img {
   left: 0;
   z-index: -1;
 }
+*/
 
 .welcome_header {
   color: white;
