@@ -408,16 +408,23 @@ img {
   font-size: 1.5em;
   margin-top: 3vh;
 }
-
-/*
-
-
-
-.team_people {
+.pricing_plan {
+  
   display: flex;
   padding: 0 2vw 0 2vw;
   justify-content: center;
 }
+.pricing_planBlock{
+  background-color: aqua;
+  border: 1px solid black;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+
+
 .people {
   width: 25%;
   margin: 0 1vw 0 1vw;
