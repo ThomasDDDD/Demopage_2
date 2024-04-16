@@ -55,10 +55,18 @@ img {
   height: 93.5vh;
   display: flex;
   flex-direction: column;
-  background-image: url(/background.png);
+  /*background-image: url(/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   padding-left: 4vw;
+}
+.welcome img {
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: -8%;
+  left: 0;
+  z-index: -1;
 }
 
 .welcome_header {
@@ -80,6 +88,9 @@ img {
   height: 6vh;
   width: 20vw;
   background-color: #9c9d9e;
+}
+.welcome_header button:hover {
+  background-color: #f44336;
 }
 .welcome_header a {
   text-decoration: none;
@@ -178,6 +189,9 @@ img {
   background-color: #000000;
   border: none;
 }
+.knowledge_header button:hover {
+  background-color: #f44336;
+}
 .knowledge_header a {
   font-size: 1.1em;
   font-weight: lighter;
@@ -188,6 +202,7 @@ img {
   justify-content: center;
   height: 100%;
 }
+
 .knowledge_header a i {
   margin-right: 0.5vw;
 }
@@ -253,6 +268,10 @@ img {
   width: 90%;
   background-color: #f1f1f1;
   border: none;
+}
+.people_button:hover {
+  background-color: #f44336;
+  color: #000000;
 }
 .people button a {
   font-size: 1.5em;
@@ -594,6 +613,10 @@ img {
   height: 6vh;
   background-color: #f1f1f1;
   border: none;
+}
+.footer_section button:hover {
+  background-color: #f44336;
+  color: #000000;
 }
 .footer_section button a {
   text-decoration: none;
