@@ -55,7 +55,7 @@ img {
   height: 93.5vh;
   display: flex;
   flex-direction: column;
-  background-image: url(/background.png);
+  background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 4vw;
